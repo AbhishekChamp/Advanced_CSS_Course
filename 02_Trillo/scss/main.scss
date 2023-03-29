@@ -1,13 +1,26 @@
-@import "base";
+@import "base/animations";
+@import "base/base";
 
+@import "components/button-inline";
+@import "components/button";
+@import "components/call-to-action";
+@import "components/description";
+@import "components/gallery";
 @import "components/legal";
+@import "components/list";
 @import "components/logo";
+@import "components/overview";
+@import "components/paragraph";
+@import "components/recommend";
+@import "components/review";
 @import "components/search";
-@import "components/user-navigation";
 @import "components/side-navigation";
+@import "components/user-navigation";
+@import "components/user-review";
 
 @import "layout/container";
 @import "layout/content";
+@import "layout/detail";
 @import "layout/header";
 @import "layout/hotel_view";
 @import "layout/sidebar";
